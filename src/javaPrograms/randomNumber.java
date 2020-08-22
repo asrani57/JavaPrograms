@@ -32,7 +32,7 @@ public class randomNumber {
 		System.out.println(temp3);
 
 
-		//Third approach --> using System Date time
+		//Third approach --> using System Date time approach
 
 		Date dt = new Date();
 		long date = dt.getTime();
