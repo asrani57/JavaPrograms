@@ -12,7 +12,7 @@ public class randomNumber {
 		//OR using Random class in java.lang.Random
 		//OR using Date timestamp
 
-		//First approach --> using Math.random()
+		//First approach --> using Math.random() approach
 		Double d = Math.random();
 		d = d*1000000000;
 		int i  = (int) d.intValue();
@@ -22,7 +22,7 @@ public class randomNumber {
 		String temp1 = userName1 + i;
 		System.out.println(temp1);
 
-		//Second approach -->Using Random class
+		//Second approach -->Using Random class approach
 
 		Random random = new Random();
 		double db =random.nextDouble();
